@@ -5,7 +5,7 @@ import './Service_Card.css'
 const Service_Card = () => {
 
     return (
-        <div className="service-cord">
+        <div className="service-card">
             <div className="icon-content">
 
             </div>
