@@ -2,12 +2,9 @@
 .header{
     width: 100%;
     background-color: #155bd5;
-    padding-bottom: 5rem;
-}
-
-.header-bottom{
-    padding: 0 8rem;
+    padding: 5rem 8rem;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .header-content{
@@ -27,7 +24,6 @@
 .header-right_content p{
     font-size: .8em;
 }
-
 
 .header-right p{
     line-height: 2.2rem;
@@ -94,9 +90,7 @@
 
 
 
-
-
-
+/*       Make them Responcive from here :)  */
 
 @media screen and ( maxiwidth: 1200px ) {
     
@@ -117,53 +111,3 @@
     
 }
 
-
-
-
-
-/*
-.header-container{
-    height: 70vh;
-    padding: 0 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background-color: rgba(137, 43, 226, 0.514);
-}
-
-.header-body{
-    flex-shrink: 5 ;
-    flex-basis: auto;
-    color: white;
-    font-size: 1.5em;
-}
-
-.buttonGroup{
-    
-    display: flex ;
-    align-items: center;
-    gap: 20px;
-}
-.buttonGroup button{
-    font-size: 1em;
-    padding: 5px 20px;
-    cursor: pointer;
-}
-.buttonGroup button:nth-child(2){
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: 50%;
-}
-
-.header-image{
-    max-width: 50vw;
-    max-height: 70vh;
-}
-
-.header-image img{
-    width: 100%;
-    border-radius: 8px;
-}*/

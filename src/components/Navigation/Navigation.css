@@ -2,7 +2,6 @@
     direction: rtl;
     
 }
-
 .navbar{
     position: sticky;
     top: 0;
@@ -11,7 +10,7 @@
     color: white;
     height: 4rem;
     padding-block: 1rem;
-    margin-bottom: 2.5rem;
+    z-index: 5;
 }
 
 .nav-container{ 
