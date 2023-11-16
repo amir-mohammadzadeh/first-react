@@ -1,0 +1,27 @@
+
+
+
+.service-cord {
+    flex-basis: 26rem;   /* 1200  => 22.5  /   991 =>  18.0      */
+    max-width: 26rem;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 2rem;
+    font-size: .75em;
+    border-radius: .8rem;
+    border: 2px solid #8f8f8f2e;
+}
+
+.service-cord:hover{
+    transition: .5s;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.icon-content {
+    background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,34 @@
+.service-section {
+    padding-block: 4rem;
+}
+
+.services-title {
+    font-size: 1.5em;
+}
+
+.services-title_content {
+    margin: 0 auto;
+    max-width: 35rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.services-title_content p {
+    font-size: .7em;
+    color: rgb(70, 70, 70);
+}
+
+.services-body {
+    background-color: rgba(255, 248, 220, 0.0);
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1300px;
+
+}
+
+.services-body_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
