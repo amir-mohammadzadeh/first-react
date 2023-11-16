@@ -3,13 +3,16 @@ import './Main.css'
 
 import About from './About/About'
 import Services from './Services/Services'
+import Team from './Team/Team'
+
 
 const Main = () => {
 
-    return(
+    return (
         <main>
-            <About  />
-            <Services  />
+            <About />
+            <Services />
+            <Team />
         </main>
     )
 

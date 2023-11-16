@@ -1,0 +1,42 @@
+* {
+    --color-text-light-1: #464646;
+
+}
+
+
+.team-section {
+    background-color: var(--color-light-3);
+    padding-block: 4rem;
+    padding-inline: 8rem;
+    box-sizing: border-box;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.team-section-title {
+    max-width: 40rem;
+    margin: 0 auto;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.team-section-title p {
+    font-size: .8em;
+    color: var(--color-text-light-1);
+}
+
+.team-video-content {
+    position: relative;
+    width: 70%;
+    text-align: center;
+}
+
+.team-video {
+    width: 100%;
+}
