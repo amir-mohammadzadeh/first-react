@@ -1,0 +1,58 @@
+.cell-action {
+    position: relative;
+    padding: 3rem;
+    background-color: #0048BA;
+    color: var(--color-light-2);
+    overflow: hidden;
+}
+
+.cell-action_container {
+    text-align: center;
+    max-width: 40rem;
+    margin: auto;
+    font-size: 1.4em;
+}
+
+.cell-action_container p {
+    line-height: 1.8rem;
+    font-size: .7em;
+}
+
+.cell-btn {
+    width: 10rem;
+    padding: 5px 10px 13px 10px;
+    margin: 2rem auto;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: .4rem;
+    font-size: .85em;
+    font-weight: 600;
+}
+
+.cell-btn:hover {
+    transition: .5s;
+    cursor: pointer;
+    color: #0048BA;
+    background-color: #fff;
+}
+
+.cell-action::after,
+.cell-action::before {
+    content: '';
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background-image: linear-gradient(150deg, #27e3c4, rgba(11, 43, 222, 0.005), rgb(59, 86, 241));
+    border-radius: 50%;
+    opacity: .5;
+}
+
+.cell-action::before {
+    top: -10rem;
+}
+
+.cell-action::after {
+    left: 6rem;
+    bottom: -10rem;
+    transform: scale(.75) rotate(-20deg);
+}
