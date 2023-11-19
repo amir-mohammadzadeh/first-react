@@ -13,3 +13,7 @@
     --color-light-2: #f5f5f5;
     --color-light-3: #fafafa;
 }
+* {
+    direction: rtl;
+
+}

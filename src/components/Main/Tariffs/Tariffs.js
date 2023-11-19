@@ -41,7 +41,7 @@ const Tariff_Card = (mode) => {
                         تومان
                     </span>
                     <span className="price-p">
-                        190
+                        590
                     </span>
                     <span className="price-l">
                         /ماهیانه

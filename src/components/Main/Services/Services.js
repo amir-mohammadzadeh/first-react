@@ -1,6 +1,5 @@
 
 import './Services.css'
-import Service_Card from './Service_Card'
 import SectionTitle from '../SectionTitle'
 
 const Services = () => {
@@ -31,3 +30,25 @@ const Services = () => {
 }
 
 export default Services
+
+
+
+const Service_Card = () => {
+
+    return (
+        <div className="service-card">
+            <div className="icon-content">
+
+            </div>
+
+            <h4>
+                عنوان سرویس
+            </h4>
+
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                با استفاده از طراحان گرافیک چاپگرها و متون بلکه روزنامه است.
+            </p>
+        </div>
+    )
+}

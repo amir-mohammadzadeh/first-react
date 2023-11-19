@@ -2,11 +2,12 @@
 .team-section {
     background-color: var(--color-light-3);
     padding-block: 4rem;
-    padding-inline: 8rem;
     box-sizing: border-box;
 }
 
 .team-content {
+    max-width: 81rem;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,3 +23,19 @@
 .team-video {
     width: 100%;
 }
+
+
+/*       Make them Responcive from here :)  */
+
+@media screen and (max-width: 768px) {
+    .team-video-content {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .team-video-content {
+        width: 90%;
+    }
+}
+

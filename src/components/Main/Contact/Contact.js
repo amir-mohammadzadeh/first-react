@@ -61,15 +61,17 @@ const Right_Card = (prop) => {
     return (
         <div className="contact-card-1">
             <div className="card-1_content">
-                <div className="card-1-icon">
-                    <i className={icon}></i>
-                </div>
                 <div className="caed-1-text">
+                    <div className="card-1-icon">
+                        <i className={icon}></i>
+                    </div>
                     <h4>
                         {title}
                     </h4>
-                    {body}
                 </div>
+
+                {body}
+
             </div>
         </div>
     )

@@ -5,28 +5,24 @@
 }
 
 .portfolio-section {
-    background-color: rgba(95, 158, 160, 0.0);
     padding: 4rem 1rem;
 }
 
 .portfolio-content {
     box-sizing: border-box;
-    width: 90%;
+    max-width: 80rem;
     margin: 0 auto;
     padding-block: 1rem;
-    background-color: rgba(95, 160, 123, 0.0);
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(auto-fill, 24rem);
     justify-content: center;
 }
 
-/*  1400 = 27  / 1300 - 1400 = 23.24  /
-1200 - 1300 = 21  /  991 - 1200 = 18  /  768 - 991 =20  */
-
 .portfolio-filters_content {
     list-style-type: none;
     padding: 0;
+    margin: 3rem auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,4 +46,50 @@
     border-color: #0247FE;
     cursor: pointer;
     color: #0247FE;
+}
+
+/*       Make them Responcive from here :)  */
+
+@media screen and (max-width: 1375px) {
+    .portfolio-content {
+        max-width: 72rem;
+        grid-template-columns: repeat(auto-fill, 22rem);
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .portfolio-content {
+        max-width: 58rem;
+        grid-template-columns: repeat(auto-fill, 18rem);
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .portfolio-content {
+        max-width: 43rem;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .portfolio-content {
+        max-width: 32rem;
+    }
+
+    /*  Font-size of Cards responcived in " Portfolio-Card.css " file  */
+}
+
+
+@media screen and (max-width: 576px) {
+    .portfolio-content {
+        max-width: 95%;
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-filters_content {
+        font-size: 1em;
+    }
 }

@@ -12,7 +12,7 @@ const Navigation = () =>{
                     <img src="logo192.png" alt="logo" />
                 </div>
 
-                <ul>
+                <ul className='nav-menu'>
                     <li className="nav-item">خانه</li>
                     <li className="nav-item">سرویس ها</li>
                     <li className="nav-item">نمونه کارها</li>

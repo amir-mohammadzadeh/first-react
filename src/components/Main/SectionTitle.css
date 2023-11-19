@@ -12,3 +12,31 @@
     font-size: .75em;
     color: var(--color-dark-2);
 }
+
+.section-title > div {
+    display: inline-block;
+    text-align: center;
+    font-size: .7em;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #155bd5;
+    border: 2px solid #155bd5;
+    box-sizing: border-box;
+    padding: 0rem 2rem 0.3rem 2rem;
+    border-radius: 5rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .section-title {
+        max-width: 30rem;     
+        padding-inline: 2rem;
+        font-size: 1.2rem;
+    }
+    
+    .section-title p {
+        line-height: 2.2rem;
+        font-size: .9em;
+    }
+}

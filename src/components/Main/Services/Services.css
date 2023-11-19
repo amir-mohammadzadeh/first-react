@@ -2,17 +2,118 @@
     padding-block: 4rem;
 }
 
-
 .services-body {
     padding: 2rem;
-    margin: 0 auto;
-    max-width: 1300px;
     font-size: 1.5em;
 }
 
 .services-body_content {
+    max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 
+}
+
+/*     Service CARD      */
+
+.service-card {
+    flex-basis: 26rem;
+    max-width: 26rem;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 2rem;
+    font-size: .9em;
+    border-radius: .8rem;
+    border: 2px solid #8f8f8f2e;
+}
+
+.service-card:hover {
+    transition: .5s;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.service-card:hover .icon-content {
+    transition: .5s;
+    background-color: #255ff3;
+}
+
+.service-card p {
+    color: var(--color-dark-2);
+    font-size: .79em;
+}
+
+.icon-content {
+
+    border: 2px solid #255ef3;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+
+}
+
+/*       Make them Responcive from here :)  */
+
+
+@media screen and (max-width: 1375px) {
+    .services-body_content {
+        max-width: 70rem;
+    }
+
+    .service-card {
+        flex-basis: 22rem;
+        max-width: 22rem;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .services-body_content {
+        max-width: 60rem;
+    }
+
+    .service-card {
+        flex-basis: 18rem;
+        max-width: 18rem;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .services-body_content {
+        max-width: 44rem;
+    }
+
+    .service-card {
+        flex-basis: 21rem;
+        max-width: 21rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .services-body_content {
+        max-width: 30rem;
+    }
+
+    .service-card {
+        flex-basis: 100%;
+        max-width: 100%;
+        flex-shrink: 0;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .services-body_content {
+        max-width: 30rem;
+    }
+
+    .service-card {
+        flex-basis: 100%;
+        max-width: 100%;
+        flex-shrink: 0;
+    }
 }

@@ -1,50 +1,59 @@
-
-.header{
+.header {
     width: 100%;
     background-color: #155bd5;
-    padding: 5rem 8rem;
+    padding: 5rem 1rem;
     margin: 0 auto;
     box-sizing: border-box;
+
 }
 
-.header-content{
+.header-content {
     height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header-right{
+
+.header-right {
     flex-basis: 50%;
     color: white;
 }
-.header-right_content{
+
+.header-right_content {
     font-size: 1.5em;
-    max-width: 40rem ;
+    max-width: 40rem;
 }
-.header-right_content p{
+
+.header-right_content p {
     font-size: .8em;
 }
 
-.header-right p{
+.header-right p {
     line-height: 2.2rem;
     color: #f1f1f1;
 }
 
-.buttonGroup{
+.buttonGroup {
     margin-top: 2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
     font-size: .9em;
 }
-.buttonGroup .btn{
+
+.buttonGroup .btn {
     display: block;
     box-sizing: border-box;
     text-align: center;
     background-color: #eeffff;
     border: 2px solid #ccf9f9;
+    color: #155bd5;
+    font-weight: 600;
 }
-.buttonGroup .play{
+
+.buttonGroup .play {
     display: block;
     width: 15rem;
     text-decoration: none;
@@ -52,36 +61,40 @@
     align-items: center;
     gap: .5rem;
 }
-.buttonGroup .start{
+
+.buttonGroup .start {
     width: 8.5rem;
     padding: 2px 8px 8px 8px;
-    border-radius: .5rem; 
+    border-radius: .5rem;
     text-decoration: none;
-    
+
 }
-.buttonGroup .play > .icon-btn{
+
+.buttonGroup .play>.icon-btn {
     width: 50px;
     height: 50px;
     padding-top: 7px;
     border-radius: 50%;
 }
-.buttonGroup .play > .text{
+
+.buttonGroup .play>.text {
     color: white;
     font-size: .8em;
 }
-.buttonGroup .icon-btn:hover ,
-.buttonGroup .start:hover{
+
+.buttonGroup .icon-btn:hover,
+.buttonGroup .start:hover {
     transition: .5s;
     cursor: pointer;
     color: white;
     background-color: #ccf9f90f;
 }
 
-.header-left{
+.header-left {
     flex-basis: 45%;
 }
 
-.header-left img{
+.header-left img {
     transform: rotateY(180deg);
     width: 100%;
     border-radius: 8px;
@@ -92,22 +105,75 @@
 
 /*       Make them Responcive from here :)  */
 
-@media screen and ( maxiwidth: 1200px ) {
-    
+@media screen and (max-width: 1375px) {
+    .header-content {
+        max-width: 1110px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 3rem 1rem;
+        padding-bottom: 5rem;
+    }
+
+    .header-content {
+        max-width: 960px;
+    }
+
+    .header-right_content h1 {
+        font-size: 1.5em;
+        line-height: 3.5rem;
+    }
 }
 
 
-@media screen and ( maxiwidth: 992px ) {
-    
+@media screen and (max-width: 992px) {
+
+    .header-content {
+        flex-direction: column;
+        gap: 3rem;
+        max-width: 700px;
+    }
+
+    .header-right_content {
+        max-width: unset;
+    }
 }
 
 
-@media screen and ( maxiwidth: 768px ) {
-    
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 2rem 1rem;
+    }
+    .header-content {
+        max-width: 500px;
+    }
+
+    .header-right_content h1 {
+        font-size: 1.3em;
+        line-height: 2.9rem;
+    }
 }
 
 
-@media screen and ( maxiwidth: 576px ) {
-    
-}
+@media screen and (max-width: 576px) {
+    .header-content {
 
+        padding-inline: 2rem;
+    }
+
+    .buttonGroup {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .header-right_content {
+        font-size: 1.3em;
+    }
+
+    .header-right_content p {
+        line-height: 1.9rem;
+    }
+}
