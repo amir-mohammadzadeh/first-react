@@ -15,12 +15,8 @@ const Services = () => {
         />)
     })
 
-
-
-
-
     return (
-        <section className="service-section">
+        <section id='Services' className="service-section">
 
             <SectionTitle key={'Services'} id={'headerOfServices'} />
 
@@ -39,8 +35,6 @@ const Services = () => {
 }
 
 export default Services
-
-
 
 const Service_Card = (prop) => {
 
@@ -62,9 +56,6 @@ const Service_Card = (prop) => {
         </div>
     )
 }
-
-
-
 
 const Data = () => {
 

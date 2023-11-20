@@ -15,7 +15,7 @@ const OurTeam = () => {
     }) ;
 
     return (
-        <section className="ourTeam-section">
+        <section id='OurTeam' className="ourTeam-section">
             <SectionTitle key="OurTeam" id='headerOfOurTeam' />
 
             <div className="ourTeam-section_content">

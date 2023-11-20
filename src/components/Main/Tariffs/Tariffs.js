@@ -16,7 +16,7 @@ const Tariffs = () => {
         )
     });
     return (
-        <section className="tariff-section">
+        <section id='Tariffs' className="tariff-section">
             <SectionTitle key="Tariffs" id="HeaderOfTariffs" />
             <div className="tariffs-section_content">
                 {LIST}

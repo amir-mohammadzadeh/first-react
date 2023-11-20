@@ -16,10 +16,8 @@ const Portfolio = () => {
         )
     })
 
-
-
     return (
-        <section className="portfolio-section">
+        <section id='Portfolios' className="portfolio-section">
 
             <SectionTitle key='Portfolio' id='headerOfProtifo' />
 
