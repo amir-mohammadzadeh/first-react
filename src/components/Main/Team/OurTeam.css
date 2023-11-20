@@ -88,15 +88,22 @@
     background-color: white;
     list-style-type: none;
     box-sizing: border-box;
+    font-size: 1.5em;
     padding: .5rem;
     border-radius: 2rem;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: var(--color-dark-2);
 }
 
+.team-social ul li:hover i{
+    transition: .3s;
+    cursor: pointer;
+    color: #0048BA;
+}
 .members-card:hover .team-social {
     transition: .65s;
     opacity: 1;
@@ -141,6 +148,15 @@
         width: 18rem;
         height: 18rem;
     }
+
+    .card-name_content {
+        padding: .5rem 1rem 1.2rem 1rem;
+        gap: .5rem;
+      }
+
+    .team-social ul{
+        font-size: 1.1em;
+    }
 }
 
 
@@ -153,6 +169,14 @@
     .members-card {
         width: 22rem;
         height: 22rem;
+    }
+    .card-name_content {
+        padding: .8rem 1rem 1.5rem 1rem;
+        gap: .5rem;
+      }
+
+    .team-social ul{
+        font-size: 1.2em;
     }
 }
 
@@ -170,7 +194,13 @@
     .card-name_content span:nth-child(1) {
         font-size: 1.3em;
         font-weight: 700;
-      }
+      
+    }
+    
+    .team-social ul{
+        width: 80%;
+        font-size: 1.2em;
+    }
 }
 
 
@@ -184,5 +214,9 @@
     .members-card {
         width: auto;
         height: auto;
+    }
+    .team-social ul{
+        width: 80%;
+        font-size: 1.8em;
     }
 }

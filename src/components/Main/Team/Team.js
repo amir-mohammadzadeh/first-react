@@ -15,7 +15,7 @@ const Team = () => {
                 <SectionTitle key={'Team'} id={'headerOfTeam'} />
 
                 <div className="team-video-content">
-                    <video id="video" onPlay={() => test('play')} onPause={() => test('pause')} className='team-video' src="images/React.mp4" controls poster='images/image-3.png'>
+                    <video id="video" className='team-video' src="images/video2.mp4" controls poster='images/image-3.png'>
                         Meat with our Team
                     </video>
                 </div>

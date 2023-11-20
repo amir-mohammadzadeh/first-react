@@ -21,6 +21,7 @@
     height: 92%;
     border-radius: .7rem;
     background-color: #e0e0e0bf;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,10 +33,12 @@
     background-color: #285ff6;
     width: 3.5rem;
     height: 3.5rem;
-    padding-top: 1rem;
     border-radius: .8rem;
     box-sizing: border-box;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
 }
 
 .portfolio-image-links a:hover {

@@ -28,7 +28,7 @@ const Right_Card = (prop) => {
     let icon, title, body;
     switch (prop.name) {
         case 'call':
-            icon = "fa fa-phone";
+            icon = "bi bi-telephone";
             title = " تماس ";
             body = <div className='caed-1-text_body'>
                 09149718819
@@ -39,7 +39,7 @@ const Right_Card = (prop) => {
             break
 
         case 'address':
-            icon = "fa fa-map-marker";
+            icon = "bi bi bi-geo-alt";
             title = " آدرس ";
             body = <div className='caed-1-text_body'>
                 ایران ، خیابان نادری
@@ -48,7 +48,7 @@ const Right_Card = (prop) => {
             break
 
         case 'time':
-            icon = "fa fa-clock-o";
+            icon = "bi bi-alarm";
             title = " زمان پاسخگویی ";
             body = <div className='caed-1-text_body'>
                 24 ساعته / 7 روز هفته

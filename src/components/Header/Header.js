@@ -19,8 +19,8 @@ const Header = () => {
                                 شروع کنید
                             </a>
                             <a className='play' href='#'>
-                                <span className="btn icon-btn">
-                                    k
+                                <span className="icon-btn">
+                                    <i className="bi bi-play-circle"></i>
                                 </span>
                                 <span className="text"> تماشای ویدئو </span>
                             </a>
